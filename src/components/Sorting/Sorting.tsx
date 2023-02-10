@@ -1,5 +1,8 @@
 import cls from './Sorting.module.scss';
 
+// TODO:
+// [] заменить кнопки на компонент Button
+
 export const Sorting = () => {
   return (
     <div className={cls.Sorting}>

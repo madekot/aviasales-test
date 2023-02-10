@@ -1,9 +1,11 @@
-import './App.scss'
 import {Header} from "./components/Header/Header";
 import {Main} from "./components/Main/Main";
 
-function App() {
+// TODO:
+// [] добавить планшетную, мобильную, десктопную сетку
+// [] добавить библиотеку classNames
 
+function App() {
   return (
     <div className="App">
       <Header/>

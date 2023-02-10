@@ -1,5 +1,9 @@
 import cls from './Button.module.scss';
 
+// TODO:
+// [] заменить div на кнопку button
+// [] добавить ховер на кнопки
+
 interface buttonProps {
   className?: string;
 }

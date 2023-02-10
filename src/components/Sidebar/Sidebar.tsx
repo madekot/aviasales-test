@@ -2,6 +2,11 @@ import cls from './Sidebar.module.scss';
 import { ReactComponent as CheckboxOff } from '../../assets/checkbox-off.svg'
 import { ReactComponent as CheckboxOn } from '../../assets/checkbox-on.svg'
 
+// TODO:
+// [] Переделать чекбоксы на input
+// [] добавить типизацию пропрос
+// [] Получать массив список карточер и мапить
+
 export const Sidebar = () => {
   return (
     <div className={cls.Sidebar}>

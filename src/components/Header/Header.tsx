@@ -2,11 +2,7 @@ import cls from './Header.module.scss';
 import {Container} from "../Container/Container";
 import {Logo} from "../Logo/Logo";
 
-interface HeaderProps {
-}
-
-export const Header = ({}: HeaderProps) => {
-
+export const Header = () => {
   return (
     <div className={cls.Header}>
       <Container>

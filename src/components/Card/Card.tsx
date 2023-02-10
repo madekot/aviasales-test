@@ -1,6 +1,9 @@
 import cls from './Card.module.scss'
 import { InfoCard } from './InfoCard/InfoCard';
 
+// TODO:
+// [] добавить ховер на карточки
+
 export const Card = () => {
   return (
     <a href="#" className={cls.Card}>
