@@ -1,0 +1,28 @@
+.Card {
+    padding: 20px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #ffffff;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    color: #2196F3;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
